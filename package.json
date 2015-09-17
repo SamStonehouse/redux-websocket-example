@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --devtool eval --progress --colors --content-base app/dist/",
     "hot": "HOT=1 node server.js",
-    "build_app": "BUILD_APP=1 webpack ./app/src/js/app.js",
+    "build_app": "BUILD_APP=1 webpack ./app/src/js/app.js"
   },
   "dependencies": {
     "es6-promise": "^2.3.0",
